@@ -1,0 +1,269 @@
+html{  scroll-behavior: smooth;
+}
+.textcenter{
+text-align: center;
+font-size: 30rem;}
+.hugetext{  font-size: 41rem;
+}
+.w100{
+  width: 100%;
+}
+h1, h2{
+  margin: 0 0 15px 0;
+  color: #35374B;
+}
+
+.home{  
+  height: 100vh;
+  display: flex;
+  background-color: #50727B ;
+}
+.aboutme{ 
+  width: 100%;
+  height: 100vh;  
+  display: flex;
+  background-color: #78A083;
+}
+.ukrash{
+    left: 1%;
+}
+
+.skills{
+    position: absolute;
+    width: 100%;  
+    height: 100vh;
+    display: flex;
+    background-color: #50727B ;
+  }
+.box{
+  padding: 0 150px 0 100px;  
+  text-align: center;
+  width: 100%;  
+  height: 100vh;
+  display: flex;  
+  align-items: center;
+  justify-content: center;}
+.box2{
+    padding: 0 150px 0 100px;  
+    text-align: center;
+    width: 100%;  
+    height: 100vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+    
+body{   
+    margin: 0;}
+
+h1{  font-size: 80px;
+  font-family:"Sedan SC", serif;
+  margin: 0;}
+h2{  font-family: "Sedan SC", serif;
+    margin: 0;
+  font-size: 20px;}
+.logo{        
+    width: 100%;      
+   height: 200px;      
+    background-color: #78A083;        
+    display: flex;   
+    overflow:hidden;         }
+.knop{          
+ font-family: "Sedan SC", serif;
+ background-color : #78A083;
+ margin-top: -200px;   
+ margin-left: 500px;   }    
+.class{     
+ position: relative;    
+ width: 600px;     
+ height: 50px;    
+ border-radius: 8px;    
+ font-size: 0;    }    
+a{      
+  line-height: 50px;    
+  height: 100%;      
+  font-size: 15px;    
+  display:inline-flex;      
+  position: relative;    
+  z-index: 1;      
+  text-decoration: none;    
+  text-transform: uppercase;      
+  text-align: center;    
+  color: #344955;      
+  cursor: pointer;    
+}    
+h3{
+    font-family: "Sedan SC", serif;
+    margin: 0;
+  font-size: 120px;
+  color: #35374B;
+  margin-top: -70px;
+ }
+h4{
+    font-family: "Sedan SC", serif;
+    margin: 0;
+  font-size: 30px;
+  color: #35374B;
+  margin-top: 60px;
+}
+h5{
+    font-family: "Sedan SC", serif;
+    margin: 0;
+  font-size: 30px;
+  color: #35374B;
+  margin-top: 90px;
+}
+h6{
+    font-family: "Sedan SC", serif;
+    margin: 0;
+  font-size: 30px;
+  color: #35374B;
+  margin-top: 120px;
+}
+.circle1{
+    z-index: 1;  
+    position: absolute;
+    width: 1px;  
+    height: 1px;
+    top: 30px;  
+    left: 0.5%;
+    box-shadow: 0px 0px 150px 150px #50727B ; }
+.circle2{
+        z-index: 1;  
+        position: absolute;
+        width: 1px;  
+        height: 1px;
+        top: 30px;  
+        left: 100%;
+        box-shadow: 0px 0px 150px 150px #50727B ; }
+p{
+    font-family: "Sedan SC", serif;
+    margin: 0;
+    font-size: 90px;
+    color: #35374B;
+  
+}
+.animation {    
+  position: absolute;      
+  height: 100%;    
+  top: 0;    
+  z-index: 0;      
+  transition: all .5s ease 0s;    
+  border-radius: 8px;    
+}    
+a:nth-child(1){      
+  width: 100px;    
+}   
+a:nth-child(2){    
+  width: 110px;    
+}    
+a:nth-child(3){      
+  width: 120px;    
+}    
+a:nth-child(4){      
+    width: 130px;    
+  }   
+a:nth-child(5){    
+    width: 140px;    
+    } 
+.start-home, a:nth-child(1):hover~.animation{      
+    width: 100px;    
+    left: 0;    
+    background-color:#50727B;}    
+.start-about, a:nth-child(2):hover~.animation{    
+    width: 110px;      
+    left: 100px;    
+  background-color: #50727B;  }    
+  .start-skills, a:nth-child(3):hover~.animation{    
+    width: 120px;      
+    left: 210px;    
+    background-color:#50727B; }
+    .start-mblog, a:nth-child(4):hover~.animation{      
+        width: 130px;    
+        left: 330px;    
+        background-color:#50727B;}    
+    .start-mprg, a:nth-child(5):hover~.animation{    
+        width: 140px;      
+        left: 460px;    
+      background-color: #50727B;  }    
+
+    .emp
+    {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+        margin: 0 15px;
+        padding: 0 100px;
+        width: 50%;
+    }
+
+    .photo2
+        {
+            border: 10px solid white;
+            box-shadow: 20px 20px 20px 0 black;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 40rem;
+            height: 30rem;
+        }
+
+        .photo
+        {
+            width: 90%;
+            border: 10px solid white;
+            rotate: 5deg;
+            box-shadow: 20px 20px 20px 0 black;
+            border-radius: 100%;
+        }
+
+        .mblog{ 
+            width: 100%;
+            height: 100vh;  
+            display: flex;
+            background-color: #78A083;
+          }
+
+          h9{
+            font-family: "Sedan SC", serif;
+            margin: 16rem;
+          font-size: 30px;
+          color: #35374B;
+          margin-top: 13rem;
+          display: flex;
+          width:50%;
+          align-items: center;
+            justify-content: center;
+        }
+        .photo3
+        {
+            border: 10px solid white;
+            box-shadow: 20px 20px 20px 20px black;
+            border-radius: 10%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 20rem;
+            height: 10rem;
+        }
+
+        .mprg{ 
+            width: 100%;
+            height: 100vh;  
+            display: flex;
+            background-color: #50727B;
+          }
+
+          h10{
+            font-family: "Sedan SC", serif;
+            margin: 10rem;
+          font-size: 40px;
+          color: #35374B;
+          margin-top: 8rem;
+          display: flex;
+          width:50%;
+          align-items: center;
+            justify-content: center;
+        }
